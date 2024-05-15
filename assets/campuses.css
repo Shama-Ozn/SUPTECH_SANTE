@@ -1,0 +1,26 @@
+h1 {
+  padding: 0.5rem 1rem;
+  margin: 2rem 0 0 0;
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+  background: black;
+  width: fit-content;
+}
+
+h1.simple-clip {
+  padding-right: 50px;
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+}
+
+h1.complex-clip {
+  padding-top: 20px;
+  padding-right: 50px;
+  clip-path: polygon(0 20%, 90% 0, 100% 100%, 0% 100%);
+}
+
+p {
+  font-size: 2rem;
+  border: 4px solid;
+  padding: 2rem 0.5rem 1.5rem;
+}
