@@ -33,6 +33,7 @@ html{
   --text-color: hsl(220, 12%, 45%);
   --body-color: hsl(220, 100%, 99%);
   --footer-color: #efefef ;
+  --form-color: #f3f3fd;
   --medsnake-color: #99B9FF;
     --main-color: #353590;
     --second-color: #26D6A5;
@@ -1278,7 +1279,7 @@ option{
 
 form{
   margin: 3rem 3rem 15rem 3rem;
-  background-color: #e4e5e7;
+  background-color: var(--form-color);
   border-radius: 20px;
   border: 1px solid var(--main-color);
   padding-top: 3%;
