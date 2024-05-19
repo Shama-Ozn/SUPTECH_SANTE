@@ -37,6 +37,7 @@ html{
   --medsnake-color: #99B9FF;
     --main-color: #353590;
     --second-color: #26D6A5;
+    
     --subtitle-color: #8d8d8d;
     /*========== Font and typography ..bash 3rftina mahankhdmoush behom ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -1085,10 +1086,13 @@ a {
 .formation-title{
   
   float: left !important;
-  margin-left: 1%;                     /*this won't move smth in the custom underline class is forbiding it from moving        hihihiiiii it moved huhuhuhh */
+  margin-left: 1%;   
+  margin-top: 6rem;
+  margin-bottom: 5rem;                  /*this won't move smth in the custom underline class is forbiding it from moving        hihihiiiii it moved huhuhuhh */
 }
 .formation-title img{
-  max-height: 20px; 
+  height: 3.5rem;
+  justify-content: center; 
 }
 
 .card h4{
@@ -1500,7 +1504,7 @@ h1.simple-clip {
 h1.complex-clip {
   padding-top: 20px;
   padding-right: 50px;
-  width: 25rem;
+  width: 28rem;
   clip-path: polygon(0 0%, 90% 0, 100% 100%, 0% 100%);
 }
 
