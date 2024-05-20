@@ -114,7 +114,7 @@ a {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .containerH {
-  max-width: 1120px;
+  
   margin-inline: 1.5rem;
   
 }
@@ -155,6 +155,7 @@ a {
   position: relative;
   width: 32px;
   height: 32px;
+  
 }
 .nav__toggle-menu, .nav__toggle-close {
   font-size: 2.25rem;
@@ -165,6 +166,7 @@ a {
   inset: 0;
   cursor: pointer;
   transition: opacity 0.1s, transform 0.4s;
+  
 }
 .nav__toggle-close {
   opacity: 0;
@@ -206,7 +208,11 @@ a {
   border-bottom: 4px solid #2ED4A6 ;
     color: #2ED4A6 ;
 }
+.current{
 
+  border-bottom: 4px solid #2ED4A6 ;
+    color: #2ED4A6 !important ;
+}
 /* Show menu */
 .show-menu {
   opacity: 1;
