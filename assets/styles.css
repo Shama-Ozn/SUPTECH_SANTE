@@ -637,8 +637,8 @@ a {
     text-justify: inter-word;
   }
   .about{
-    padding-top: 3%;
-    padding-bottom: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 
   }
   @media only screen and (min-width:1200px){
@@ -1100,6 +1100,9 @@ a {
   height: 3.5rem;
   justify-content: center; 
 }
+.card img {
+  size: auto;
+}
 
 .card h4{
         text-align: center;
@@ -1141,8 +1144,11 @@ a {
     }
  /*-----------frows-----------------*/
  .Frow   {
-  column-gap: 2rem !important ;
+  column-gap: auto ;
   margin-bottom: 4rem ;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between!important;
  }
  .Frow a{
   text-decoration: none;
@@ -1150,83 +1156,15 @@ a {
  .Frow h4{
   color: var(--main-color);
   font-weight: 500;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 1rem;
+  padding-right: 1rem;
   font-family: 'Poppins', 'Serif';
  }
- /*________________________each branch page ... anywaaaaays .. ________________________________________*/
-
- .containerB {
-	max-width: 100rem;
-	width: 100%;
-	background: var(--white);
-	border-radius: 10px;
-	box-shadow: 0 8px 24px rgba(0, 0, 0, .05);
-  justify-content: center !important;
-  margin-bottom: 2%;
-  margin-left: auto;
-  margin-right: auto;
- }
-.wrapper {
-	display: flex;
-}
-.indicator {
-	padding: 1.5rem 0;
-	border-right: 1px solid var(--main-color);
-}
-.indicator li {
-	display: flex;
-	align-items: center;
-	grid-gap: .5rem;
-	padding: 10px 2rem;
-	cursor: pointer;
-	font-size: 1.75rem;
-	color: var(--main-color);
-	border-right: 3px solid transparent;
-}
-.indicator li i {
-	font-size: 1.75rem !important;
-}
-.indicator li:hover {
-	background: var(--footer-color);
-}
-.indicator li.ActIve {
-	border-right-color: var(--second-color);
-	color: var(--second-color);
-	background: var(--footer-color) ;
-}
-.content {
-	padding: 1.5rem 2rem;
-}
-.content li {
-	display: none;
-}
-.content li.ActIve {
-	display: block;
-}
-.content li h1 {
-	font-size: 2rem;
-	font-weight: 600;
-	color: var(--black);
-	margin-bottom: 1.75rem;
-}
-.content li p {
-	margin-bottom: .5rem;
-	color: grey;
-	font-size: 1.5rem;
-}
+ /*media queries*/
 
 
-
-
-@media screen and (max-width: 576px) {
-	.wrapper {
-		flex-direction: column;
-	}
-	.indicator {
-		border-right: none;
-	}
-}
+ 
+ 
 /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    Forms     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 .legend {
   display: flex;
@@ -1871,13 +1809,13 @@ h1.complex-clip {
 
 @keyframes shine {
     0% {
-        box-shadow: 0 0 5px rgb(207, 78, 78) ;
+        box-shadow: 0 0 5px #63ddba ;
     }
     50% {
-        box-shadow: 0 0 20px rgb(207, 78, 78), 0 0 22px rgb(141, 0, 0) ;
+        box-shadow: 0 0 20px #63ddba, 0 0 22px #26D6A5 ;
     }
     100% {
-      box-shadow: 0 0 5px rgb(207, 78, 78) ;
+      box-shadow: 0 0 5px #63ddba ;
   }
    
 }
