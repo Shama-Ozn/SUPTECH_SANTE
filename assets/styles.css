@@ -1605,6 +1605,12 @@ h1.complex-clip {
   scale: 1.05;
   transition: all 0.5s;
 }
+@media screen and (max-width: 600px) {
+  .hero-textfc h6 {
+    padding-left: 1rem !important;
+  }
+  
+}
 /* ################ Infos in formation continue ################ */
 .Infos {
  
@@ -1646,15 +1652,15 @@ h1.complex-clip {
 }
 .containerB {
 	max-width: 140rem;
-	width: 100%;
+	width: 90%;
 	background: white;
 	border-radius: 10px;
 	box-shadow: 0 8px 24px rgba(0, 0, 0, .05);
-  justify-content: center !important;
+  justify-content: center ;
   margin-bottom: 10%;
-  margin-left: auto !important;
-  margin-right: auto !important;
   margin-top: 6rem;
+  margin-left: auto ;
+  margin-right: auto ;
  }
 .wrapper {
 	display: flex;
