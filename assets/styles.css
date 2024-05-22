@@ -1375,6 +1375,13 @@ margin-top: 3%;
 }
                                        /* !important kun kant t9dr kun jm3atha m3aya bshi tmrmi9a db
                                                          .. mosiba sf  */
+                                                         td{
+  border: 8px solid #efefef !important;
+}
+th{
+  border:  8px solid #efefef !important;
+  color:white !important;
+}
 .co1{
   width: 305px; 
   background-color: #90ebbd !important;
