@@ -124,7 +124,7 @@ a {
   margin-top: 0;
   position: absolute ;
   left: 0;
-  width: 100%;
+  width: 100% !important;
   box-shadow: 0 2px 8px hsla(220, 68%, 12%, 0.1);
   background-color: var(--body-color);
   z-index: 10;
@@ -133,6 +133,7 @@ a {
 /*=============== NAV ===============*/
 .nav {
   height: var(--header-height);
+  width: 100%;
 
 }
 .nav__data {
@@ -146,7 +147,6 @@ a {
   align-items: center;
   column-gap: 0.25rem;
   margin-right: 1em;
-  
   transition: color 0.3s;
 }
 
@@ -455,12 +455,12 @@ a {
 	font-size: 50px;
 	padding: 15px;
 	cursor: pointer;
-	color: #fff;
+	color: #fff !important;
 	transition: 0.1s;
 	
 }
 .prev:hover, .next:hover{
-	color: white; 
+	color: white !important; 
 }
 .next{
 	right: 0;
@@ -887,15 +887,18 @@ a {
   margin-right: 1%;
 }
 
-
+.nc{
+  height: 100% !important;
+  width: 100% !important;
+}
 .imgT {
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1;
-  width: 85%;
-  padding-left: 3%;
+  width: 95%;
+  
 }
 .custom-underline::after {
     content: "";
@@ -1097,13 +1100,30 @@ a {
   margin-bottom: 5rem;                  /*this won't move smth in the custom underline class is forbiding it from moving        hihihiiiii it moved huhuhuhh */
 }
 .formation-title img{
-  height: 3.5rem;
-  justify-content: center; 
+  height: 5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 .card img {
-  size: auto;
+  
 }
-
+/*media queries*/
+@media screen and (max-width:2000px) {
+  .card-formations{
+ height: 60rem !important;
+}
+}
+@media screen and (max-width:1440px) {
+  .card-formations{
+ height: 45rem !important;
+}
+}
+@media screen and (max-width:992px) {
+  .card-formations{
+ height: 55rem !important;
+}
+}
+/*media queries*/
 .card h4{
         text-align: center;
         text-decoration: none;
@@ -1797,8 +1817,12 @@ h1.complex-clip {
 .hero-textfc button{
   margin-left: -3% !important;
   width:100px ;
+  
 }
 
+}
+.hero-textfc button{
+  margin-top: 5rem;
 }
 /* ############ bourse text ########*/
 .shiny-text {
